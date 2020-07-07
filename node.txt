@@ -1,0 +1,4 @@
+buổi 1
+*   component
+        -Stateful component (class)
+        -Stateless Component (function)
