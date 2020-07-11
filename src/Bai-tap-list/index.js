@@ -11,15 +11,15 @@ export default class BaitapList extends Component {
     renderT = () => {
         const { listMovie } = this.state;
         return listMovie.map(movie => {
-            return <div className="col-4" >
-                <div className="card">
-                    <img src={movie.hinhAnh} className="img-fluit " alt="movie" style={{ height: 400 }}/>
+            return (<div className="col-4" key={movie.maPhim}>
+                <div className="card" >
+                    <img src={movie.hinhAnh} className="img-fluit " alt="movie" style={{ height: 400 }} />
                     <div className="card-body ">
                         <h5>{movie.tenPhim}</h5>
                         <p className="Btl_text" >{movie.moTa}</p>
                     </div>
                 </div>
-            </div>
+            </div>)
         })
     }
     render() {
