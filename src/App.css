@@ -36,3 +36,14 @@
     transform: rotate(360deg);
   }
 }
+.title{
+  color: red;
+  text-align: center;
+}
+.Btl_text{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
